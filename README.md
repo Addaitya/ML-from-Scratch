@@ -1,12 +1,7 @@
 # ML from scratch
 
 1. In this repository I implemented popular machine learning algorithm from scratch.
-2. I have used python and numpy for the implementation. But I used sklearn for loading dataset and other pre processing 
-
-
-
-
-
+2. I have used python and numpy for the implementation. But I used sklearn for loading dataset and other pre processing tasks.
 
 
 
@@ -34,11 +29,19 @@ First you need to setup enviornment for this. Use any one of following:
     source ml_from_scratch/bin/activate  # if didn't work remove source
 </details>
 <br>
+
 Install following dependecies:
 
 ```
 pip install numpy scikit-learn 
 ```
+
+You may also need jupyter lab to open notebooks(.ipynb file)
+```
+pip install jupyterlab
+jupyter lab
+```
 ## ML algorithms in this repo
 
-1. Decesion Tree
+1. Decesion tree
+2. Multiple linear regression
